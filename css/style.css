@@ -181,3 +181,31 @@ form{
 	margin: 0 auto;
  }
  
+ #reserva {
+	background-image: url("../img/happy-senior-people-having-fun-at-barbecue-dinner-2023-04-27-06-12-17-utc.jpg");
+	padding: 200px;
+	background-size: cover;
+ }
+ 
+ #reserva h3 {
+	text-align: center;
+	font-size: 50px;
+	color: whitesmoke;
+ }
+ 
+ #reserva p {
+	text-align: center;
+	font-size: 30px;
+	color: whitesmoke;
+	opacity: 80%;
+ }
+ 
+ #reserva button.btn-outline-warning {
+	padding: 10px 70px;
+	border-radius: 25px;
+	color: #fff;
+	margin-top: 40px;
+	display: block;
+	margin: 0 auto;
+ }
+ 
