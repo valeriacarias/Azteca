@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+	--fondo-gris:#212529;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #686868;
+}
+
+header{
+	background-color: var(--fondo-gris);
+	text-transform: uppercase;
+}
+
+header img{
+	width: 150px;
+	margin: 0;
+}
+
+.nav-item{
+	margin-right: 5px;
+}
+
+#hero{
+	background-image: url("../img/italian-food-background-with-ingredients-2021-08-28-05-12-22-utc.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 180px 0;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h1{
+	font-size: 70px !important;
+}
+
+h2{
+	font-size: 20px !important;
+}
+
+h3{
+	font-size: 40px !important;
+}
+
+
+#hero i{
+	font-size: 50px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#reservaciones i{
+	font-size: 40px;
+}
+
+#sobrenosotros{
+	background-color: #FFFFFF;
+	padding: 5%;
+	text-align: center;
+}
+#sobrenosotros .la-crown{
+	font-size: 23px;
+}
+
+#hero .btn-outline-warning{
+	padding: 10px 70px;
+	border-radius: 25px;
+	color: #fff;
+	box-shadow: 2px 2px 4px #000000;
+	margin-top: 40px;
+}
+
+#sobrenosotros .btn-outline-warning{
+	padding: 10px 60px;
+	border-radius: 25px;
+	font-size: 14px;
+}
+
+p{
+	font-size: 14px;
+}
+
+#servicios{
+	background-color: #FFFFFF;
+	padding: 5%;
+}
+#servicios .card {
+	border: 0;
+	background-color: #FFFFFF
+}
+
+
+.card-info{
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(0,0,0,0.79);
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	
+}
+
+.card-info h4{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+}
+.card .position-relative{
+	overflow: hidden
+}
+.card-header{
+	background-color: transparent;
+}
+
+#reservaciones{
+	padding: 50px 0;
+	background-color: var(--fondo-gris);
+	color: #fff;
+	text-align: center;
+}
+
+form{
+	background-color: var(--fondo-gris);
+	text-align: start;
+}
+
+.mc-field-group{
+	color: #fff;
+}
