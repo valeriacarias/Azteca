@@ -131,3 +131,53 @@ form{
 .mc-field-group{
 	color: #fff;
 }
+
+#mc_embed_signup{
+	/* background-color: rgba(255, 255, 255, 0); or #fff0 for transparency */
+	/* background: #fff0; */
+	margin: 0 auto !important;
+	background-color: transparent !important;
+	background: transparent !important;
+}
+
+#reservaciones_container{
+	/* background-color: rgba(255, 255, 255, 0); or #fff0 for transparency */
+	/* background: #fff0; */
+	background-color: transparent !important;
+	background: transparent !important;
+}
+
+#mce-FNAME{
+	background-color: rgba(255, 255, 255, 0); /* or #fff0 for transparency*/
+	color: #fff;
+	background: #fff0;
+}
+
+#mce-EMAIL{
+	background-color: rgba(255, 255, 255, 0); /* or #fff0 for transparency*/
+	color: #fff;
+	background: #fff0;
+}
+
+.optionalParent {
+	text-align: center;
+ }
+ 
+ #mc-embedded-subscribe.btn-outline-warning {
+	padding: 10px 70px;
+	border-radius: 25px;
+	color: #fff;
+	margin-top: 40px;
+	display: block;
+	margin-left: 45%;
+	margin-right: auto;
+ }
+ 
+ .clear {
+	display: inline-block;
+ }
+
+ .form {
+	margin: 0 auto;
+ }
+ 
